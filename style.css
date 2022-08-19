@@ -1,0 +1,25 @@
+body{
+    margin: 8px;
+    color: rgb(233, 229, 229);
+}
+#view{
+    background-color: #1d1d24;
+}
+nav{
+    width: auto;
+    background-color: rgb(189, 157, 183);
+}
+
+a{
+    text-decoration: none;
+}
+
+.me{
+    margin-top: 8px;
+    background-color: rgb(147, 172, 105);
+    color: rgb(14, 13, 13);
+}
+
+/* .me img{
+    float: right;
+} */
