@@ -28,7 +28,7 @@ li a {
     display: block;
     padding: 8px;
     text-decoration: none;
-    color: black;
+    color: #463f3a;
 }
 
 .back{
@@ -51,7 +51,7 @@ header nav ul li {
     position: relative;
     top: 12%;
     left: 70%;
-    
+    background-color: #f4f3ee;
 }
 header nav ul li a {
     display: flex;
@@ -59,7 +59,6 @@ header nav ul li a {
     margin: 0px 10px;
     height: 70px;
     color: #463f3a;
-    text-transform: capitalize;
 }
 
 .site-header {
@@ -67,14 +66,15 @@ header nav ul li a {
     justify-content: space-between;
     align-items: center; 
     height: 70px;
+   
 }
 
 .site-menu {
     display: flex;
-    height: 70px;
-    justify-content: space-between;
-    /* position: fixed;
-    top: 0; */
+    height: 60px;
+    max-width: auto;
+    position: fixed;
+    top: 0;
 }
 .site-menu ul {
     display: flex;
@@ -238,6 +238,24 @@ header nav ul li a {
     width: 80%;
 }
 
+.contact{
+    background: #8a817c;
+    color: #f4f3ee;
+}
+
+.cont{
+    background: #463f3a;
+}
+
+.form{
+    background: #8a817c;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+  
 .footer{
     background: #f4f3ee;
     color: #463f3a;
